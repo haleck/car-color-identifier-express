@@ -21,11 +21,11 @@ const pool = new Pool.Pool({
     database: 'upd'
 })
 
-const colors_dict = {0: "beige", 1: "black", 2: "blue",
-    3: "brown", 4: "gold", 5: "green",
-    6: "grey", 7: "orange", 8: "pink",
-    9: "purple", 10: "red", 11: "silver",
-    12: "tan", 13: "white", 14: "yellow"}
+const colors_dict = {0: "Бежевый", 1: "Черный", 2: "Синий",
+3: "Коричневый", 4: "Золотой", 5: "Зеленый",
+6: "Серый", 7: "оранжевый", 8: "Розовый",
+9: "Фиолетовый", 10: "Красный", 11: "Серебристый",
+12: "Цвет загара", 13: "Белый", 14: "Желтый"}
 
 // Настройка Multer для сохранения файлов
 const storage = multer.memoryStorage();
